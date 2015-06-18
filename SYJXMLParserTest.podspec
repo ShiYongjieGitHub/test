@@ -10,15 +10,10 @@ Pod::Spec.new do |s|
 
   s.name         = "SYJXMLParserTest"
   s.version      = "0.0.1"
-  s.summary      = "A short description of SYJXMLParserTest."
+  s.summary      = "A simple way to parse and generate XML on iOS and Mac OS."
 
   s.description  = <<-DESC
-                   A longer description of SYJXMLParserTest in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   A simple way to parse and generate XML on iOS and Mac OS. Converts an XML file to an NSDictionary which can then be easily traversed using the standard Cocoa keyPath mechanism. Can also output the contents of any dictionary as XML.
                    DESC
 
   s.homepage     = "https://github.com/ShiYongjieGitHub/test.git"
@@ -32,7 +27,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
